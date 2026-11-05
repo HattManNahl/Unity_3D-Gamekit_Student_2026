@@ -9,7 +9,7 @@ namespace Gamekit3D
 {
     public partial class Damageable : MonoBehaviour
     {
-
+        public int healthPointsMax;
         public int maxHitPoints;
         [Tooltip("Time that this gameObject is invulnerable for, after receiving damage.")]
         public float invulnerabiltyTime;
