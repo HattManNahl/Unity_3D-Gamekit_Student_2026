@@ -1,4 +1,5 @@
 using Gamekit3D;
+using TMPro;
 using UnityEngine;
 
 public class SurvivalMod : MonoBehaviour
@@ -9,6 +10,9 @@ public class SurvivalMod : MonoBehaviour
 
     [SerializeField] private bool thirsty;
     [SerializeField] private bool parched;
+
+    public TMP_Text waterBottleText;
+    public TMP_Text thirstLevelText;
 
     [SerializeField] private GameObject playerObject;
     

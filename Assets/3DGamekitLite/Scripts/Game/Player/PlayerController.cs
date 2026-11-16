@@ -415,7 +415,7 @@ namespace Gamekit3D
 
             if (m_IsGrounded && !m_PreviouslyGrounded)
             {
-
+                
             }
 
             if (!m_IsGrounded && m_PreviouslyGrounded && m_VerticalSpeed > 0f)
