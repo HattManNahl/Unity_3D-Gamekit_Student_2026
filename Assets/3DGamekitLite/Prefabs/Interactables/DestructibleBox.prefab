@@ -66,6 +66,7 @@ GameObject:
   - component: {fileID: 23105413348060914}
   - component: {fileID: 64810308498445900}
   - component: {fileID: 54472876201041426}
+  - component: {fileID: 9211508578051120803}
   m_Layer: 19
   m_Name: DestructableBox_Chunk
   m_TagString: Untagged
@@ -194,6 +195,37 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &9211508578051120803
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1057760939268628}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FMODUnity::FMODUnity.StudioEventEmitter
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -2067981996
+      Data2: 1087877029
+      Data3: -1268075074
+      Data4: 1748556291
+    Path: event:/Interactables/Int_pickup_health2D
+  Event: 
+  EventPlayTrigger: 7
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1111805920070670
 GameObject:
   m_ObjectHideFlags: 0
@@ -207,6 +239,7 @@ GameObject:
   - component: {fileID: 23131834157102828}
   - component: {fileID: 64569209643257300}
   - component: {fileID: 54958303855218422}
+  - component: {fileID: 4907633514656284533}
   m_Layer: 19
   m_Name: DestructableBox_Chunk5
   m_TagString: Untagged
@@ -335,6 +368,37 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &4907633514656284533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1111805920070670}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FMODUnity::FMODUnity.StudioEventEmitter
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -2067981996
+      Data2: 1087877029
+      Data3: -1268075074
+      Data4: 1748556291
+    Path: event:/Interactables/Int_pickup_health2D
+  Event: 
+  EventPlayTrigger: 7
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1187805066841518
 GameObject:
   m_ObjectHideFlags: 0
@@ -348,6 +412,7 @@ GameObject:
   - component: {fileID: 23308351406890180}
   - component: {fileID: 64052507872488034}
   - component: {fileID: 54137800458000322}
+  - component: {fileID: 921636165382525390}
   m_Layer: 19
   m_Name: DestructableBox_Chunk7
   m_TagString: Untagged
@@ -476,6 +541,37 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &921636165382525390
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1187805066841518}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FMODUnity::FMODUnity.StudioEventEmitter
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -2067981996
+      Data2: 1087877029
+      Data3: -1268075074
+      Data4: 1748556291
+    Path: event:/Interactables/Int_pickup_health2D
+  Event: 
+  EventPlayTrigger: 7
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1318089303424570
 GameObject:
   m_ObjectHideFlags: 0
@@ -489,6 +585,7 @@ GameObject:
   - component: {fileID: 23231063297459274}
   - component: {fileID: 64734559308973134}
   - component: {fileID: 54443562368707480}
+  - component: {fileID: 6391202978945848170}
   m_Layer: 19
   m_Name: DestructableBox_Chunk14
   m_TagString: Untagged
@@ -617,6 +714,37 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &6391202978945848170
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1318089303424570}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FMODUnity::FMODUnity.StudioEventEmitter
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -2067981996
+      Data2: 1087877029
+      Data3: -1268075074
+      Data4: 1748556291
+    Path: event:/Interactables/Int_pickup_health2D
+  Event: 
+  EventPlayTrigger: 7
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1393089340077170
 GameObject:
   m_ObjectHideFlags: 0
@@ -630,6 +758,7 @@ GameObject:
   - component: {fileID: 23062042244815236}
   - component: {fileID: 64049662880904014}
   - component: {fileID: 54096629949123030}
+  - component: {fileID: 2969114107599855315}
   m_Layer: 19
   m_Name: DestructableBox_Chunk13
   m_TagString: Untagged
@@ -758,6 +887,37 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &2969114107599855315
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1393089340077170}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FMODUnity::FMODUnity.StudioEventEmitter
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -2067981996
+      Data2: 1087877029
+      Data3: -1268075074
+      Data4: 1748556291
+    Path: event:/Interactables/Int_pickup_health2D
+  Event: 
+  EventPlayTrigger: 7
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1395262686665914
 GameObject:
   m_ObjectHideFlags: 0
@@ -771,6 +931,7 @@ GameObject:
   - component: {fileID: 23744391946462176}
   - component: {fileID: 64855117156494372}
   - component: {fileID: 54513127651726316}
+  - component: {fileID: 3678611625912021878}
   m_Layer: 19
   m_Name: DestructableBox_Chunk4
   m_TagString: Untagged
@@ -899,6 +1060,37 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &3678611625912021878
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1395262686665914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FMODUnity::FMODUnity.StudioEventEmitter
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -2067981996
+      Data2: 1087877029
+      Data3: -1268075074
+      Data4: 1748556291
+    Path: event:/Interactables/Int_pickup_health2D
+  Event: 
+  EventPlayTrigger: 7
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1478066460284010
 GameObject:
   m_ObjectHideFlags: 0
@@ -976,6 +1168,7 @@ GameObject:
   - component: {fileID: 23674483504574714}
   - component: {fileID: 64270480009533010}
   - component: {fileID: 54864268751139694}
+  - component: {fileID: 8360367268677224277}
   m_Layer: 19
   m_Name: DestructableBox_Chunk16
   m_TagString: Untagged
@@ -1104,6 +1297,37 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &8360367268677224277
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1602779672323856}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FMODUnity::FMODUnity.StudioEventEmitter
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -2067981996
+      Data2: 1087877029
+      Data3: -1268075074
+      Data4: 1748556291
+    Path: event:/Interactables/Int_pickup_health2D
+  Event: 
+  EventPlayTrigger: 7
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1676491869467478
 GameObject:
   m_ObjectHideFlags: 0
@@ -1114,6 +1338,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4730132166866816}
   - component: {fileID: 114783824653081440}
+  - component: {fileID: 1291588129048688000}
   m_Layer: 19
   m_Name: DestructibleBoxBreak
   m_TagString: Untagged
@@ -1194,6 +1419,37 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1291588129048688000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1676491869467478}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FMODUnity::FMODUnity.StudioEventEmitter
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -2067981996
+      Data2: 1087877029
+      Data3: -1268075074
+      Data4: 1748556291
+    Path: event:/Interactables/Int_pickup_health2D
+  Event: 
+  EventPlayTrigger: 11
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1681811184619038
 GameObject:
   m_ObjectHideFlags: 0
@@ -1207,6 +1463,7 @@ GameObject:
   - component: {fileID: 23080946754364214}
   - component: {fileID: 64640243450091138}
   - component: {fileID: 54952653704979808}
+  - component: {fileID: 1251683446860771767}
   m_Layer: 19
   m_Name: DestructableBox_Chunk10
   m_TagString: Untagged
@@ -1335,6 +1592,37 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1251683446860771767
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1681811184619038}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FMODUnity::FMODUnity.StudioEventEmitter
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -2067981996
+      Data2: 1087877029
+      Data3: -1268075074
+      Data4: 1748556291
+    Path: event:/Interactables/Int_pickup_health2D
+  Event: 
+  EventPlayTrigger: 7
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1691087937426540
 GameObject:
   m_ObjectHideFlags: 0
@@ -1348,6 +1636,7 @@ GameObject:
   - component: {fileID: 23734693030515410}
   - component: {fileID: 64036843679473064}
   - component: {fileID: 54759824241239828}
+  - component: {fileID: 243872049909397727}
   m_Layer: 19
   m_Name: DestructableBox_Chunk2
   m_TagString: Untagged
@@ -1476,6 +1765,37 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &243872049909397727
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1691087937426540}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FMODUnity::FMODUnity.StudioEventEmitter
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -2067981996
+      Data2: 1087877029
+      Data3: -1268075074
+      Data4: 1748556291
+    Path: event:/Interactables/Int_pickup_health2D
+  Event: 
+  EventPlayTrigger: 7
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1702263018271700
 GameObject:
   m_ObjectHideFlags: 0
@@ -1489,6 +1809,7 @@ GameObject:
   - component: {fileID: 23276945494555082}
   - component: {fileID: 64821737472786894}
   - component: {fileID: 54914062182287362}
+  - component: {fileID: 7867068746371836386}
   m_Layer: 19
   m_Name: DestructableBox_Chunk17
   m_TagString: Untagged
@@ -1617,6 +1938,37 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &7867068746371836386
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1702263018271700}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FMODUnity::FMODUnity.StudioEventEmitter
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -2067981996
+      Data2: 1087877029
+      Data3: -1268075074
+      Data4: 1748556291
+    Path: event:/Interactables/Int_pickup_health2D
+  Event: 
+  EventPlayTrigger: 7
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1720363055953560
 GameObject:
   m_ObjectHideFlags: 0
@@ -1630,6 +1982,7 @@ GameObject:
   - component: {fileID: 23035985826819670}
   - component: {fileID: 64569119638641228}
   - component: {fileID: 54642203501037878}
+  - component: {fileID: 163097062009693407}
   m_Layer: 19
   m_Name: DestructableBox_Chunk12
   m_TagString: Untagged
@@ -1758,6 +2111,37 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &163097062009693407
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1720363055953560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FMODUnity::FMODUnity.StudioEventEmitter
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -2067981996
+      Data2: 1087877029
+      Data3: -1268075074
+      Data4: 1748556291
+    Path: event:/Interactables/Int_pickup_health2D
+  Event: 
+  EventPlayTrigger: 7
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1720444653943636
 GameObject:
   m_ObjectHideFlags: 0
@@ -1771,6 +2155,7 @@ GameObject:
   - component: {fileID: 23820524871504448}
   - component: {fileID: 64125771565876272}
   - component: {fileID: 54350177447554084}
+  - component: {fileID: 4975961918307452148}
   m_Layer: 19
   m_Name: DestructableBox_Chunk15
   m_TagString: Untagged
@@ -1899,6 +2284,37 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &4975961918307452148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1720444653943636}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FMODUnity::FMODUnity.StudioEventEmitter
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -2067981996
+      Data2: 1087877029
+      Data3: -1268075074
+      Data4: 1748556291
+    Path: event:/Interactables/Int_pickup_health2D
+  Event: 
+  EventPlayTrigger: 7
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1734003870627190
 GameObject:
   m_ObjectHideFlags: 0
@@ -1912,6 +2328,7 @@ GameObject:
   - component: {fileID: 23232241240400280}
   - component: {fileID: 64006493169782642}
   - component: {fileID: 54791806111296000}
+  - component: {fileID: 2737078420579133776}
   m_Layer: 19
   m_Name: DestructableBox_Chunk11
   m_TagString: Untagged
@@ -2040,6 +2457,37 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &2737078420579133776
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1734003870627190}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FMODUnity::FMODUnity.StudioEventEmitter
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -2067981996
+      Data2: 1087877029
+      Data3: -1268075074
+      Data4: 1748556291
+    Path: event:/Interactables/Int_pickup_health2D
+  Event: 
+  EventPlayTrigger: 7
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1738868367793594
 GameObject:
   m_ObjectHideFlags: 0
@@ -11980,6 +12428,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0149b5ab8f608c943b260125ac76d875, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthPointsMax: 0
   maxHitPoints: 1
   invulnerabiltyTime: 0
   hitAngle: 360
@@ -12122,6 +12571,7 @@ GameObject:
   - component: {fileID: 23583811039348962}
   - component: {fileID: 64511420575368098}
   - component: {fileID: 54774085141402580}
+  - component: {fileID: 6042582668654877154}
   m_Layer: 19
   m_Name: DestructableBox_Chunk6
   m_TagString: Untagged
@@ -12250,6 +12700,37 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &6042582668654877154
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1889811734103110}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FMODUnity::FMODUnity.StudioEventEmitter
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -2067981996
+      Data2: 1087877029
+      Data3: -1268075074
+      Data4: 1748556291
+    Path: event:/Interactables/Int_pickup_health2D
+  Event: 
+  EventPlayTrigger: 7
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1901623676808238
 GameObject:
   m_ObjectHideFlags: 0
@@ -12263,6 +12744,7 @@ GameObject:
   - component: {fileID: 23439531239524800}
   - component: {fileID: 64898770140443146}
   - component: {fileID: 54330958339593676}
+  - component: {fileID: 5141631479578055693}
   m_Layer: 19
   m_Name: DestructableBox_Chunk1
   m_TagString: Untagged
@@ -12391,6 +12873,37 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &5141631479578055693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1901623676808238}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FMODUnity::FMODUnity.StudioEventEmitter
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -2067981996
+      Data2: 1087877029
+      Data3: -1268075074
+      Data4: 1748556291
+    Path: event:/Interactables/Int_pickup_health2D
+  Event: 
+  EventPlayTrigger: 7
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1926575859195856
 GameObject:
   m_ObjectHideFlags: 0
@@ -12404,6 +12917,7 @@ GameObject:
   - component: {fileID: 23930922332374554}
   - component: {fileID: 64219271187290832}
   - component: {fileID: 54097568945095668}
+  - component: {fileID: 1591159260866884035}
   m_Layer: 19
   m_Name: DestructableBox_Chunk8
   m_TagString: Untagged
@@ -12532,6 +13046,37 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1591159260866884035
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1926575859195856}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FMODUnity::FMODUnity.StudioEventEmitter
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -2067981996
+      Data2: 1087877029
+      Data3: -1268075074
+      Data4: 1748556291
+    Path: event:/Interactables/Int_pickup_health2D
+  Event: 
+  EventPlayTrigger: 7
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1978226534483108
 GameObject:
   m_ObjectHideFlags: 0
@@ -12545,6 +13090,7 @@ GameObject:
   - component: {fileID: 23043546465570830}
   - component: {fileID: 64865180939690098}
   - component: {fileID: 54194804768202664}
+  - component: {fileID: 5422988610196332849}
   m_Layer: 19
   m_Name: DestructableBox_Chunk3
   m_TagString: Untagged
@@ -12673,6 +13219,37 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &5422988610196332849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1978226534483108}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FMODUnity::FMODUnity.StudioEventEmitter
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -2067981996
+      Data2: 1087877029
+      Data3: -1268075074
+      Data4: 1748556291
+    Path: event:/Interactables/Int_pickup_health2D
+  Event: 
+  EventPlayTrigger: 7
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1994379732741598
 GameObject:
   m_ObjectHideFlags: 0
@@ -12686,6 +13263,7 @@ GameObject:
   - component: {fileID: 23769207469437368}
   - component: {fileID: 64874288674026260}
   - component: {fileID: 54245306270781164}
+  - component: {fileID: 245022526811149875}
   m_Layer: 19
   m_Name: DestructableBox_Chunk9
   m_TagString: Untagged
@@ -12814,3 +13392,34 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &245022526811149875
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1994379732741598}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FMODUnity::FMODUnity.StudioEventEmitter
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -2067981996
+      Data2: 1087877029
+      Data3: -1268075074
+      Data4: 1748556291
+    Path: event:/Interactables/Int_pickup_health2D
+  Event: 
+  EventPlayTrigger: 7
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
